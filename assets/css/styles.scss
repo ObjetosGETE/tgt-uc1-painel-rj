@@ -77,11 +77,14 @@
 
     .msg-ajuda {
         position: absolute;
-        width: 400px;
-        background-color: rgba($color: white, $alpha: .8);
-        padding: 40px 20px;
+        width: 570px;
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 20px 20px;
         border-radius: 5px;
-        font-size: 20px;
+        font-size: 16px;
+        left: calc(50% - (570px / 2));
+        margin-top: 13px;
+        text-align: left;
 
     }
 

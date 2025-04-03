@@ -10,6 +10,7 @@
 .painel-rj {
   position: relative;
   height: 100%;
+  width: -moz-fit-content;
   width: fit-content;
 }
 .painel-rj .tela-intro {
@@ -70,16 +71,18 @@
 }
 .painel-rj .msg-ajuda {
   position: absolute;
-  width: 400px;
+  width: 570px;
   background-color: rgba(255, 255, 255, 0.8);
-  padding: 40px 20px;
+  padding: 20px 20px;
   border-radius: 5px;
-  font-size: 20px;
+  font-size: 16px;
+  left: calc(50% - 285px);
+  margin-top: 13px;
+  text-align: left;
 }
 .painel-rj .bg {
   max-width: 100%;
-  max-height: 100vh;
-  width: 1920px;
+  width: 1600px;
   display: block;
   margin: auto;
 }
@@ -142,6 +145,4 @@
   .painel-rj .tela-celular {
     display: flex;
   }
-}
-
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */
